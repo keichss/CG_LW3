@@ -115,7 +115,7 @@ public:
         m_pEffect->SetMatSpecularIntensity(1.0f);
         m_pEffect->SetMatSpecularPower(32); // установка отражения
 
-        glEnableVertexAttribArray(0); //измененный цикл рендера
+        glEnableVertexAttribArray(0); // измененный цикл рендера
         glEnableVertexAttribArray(1);
         glEnableVertexAttribArray(2);
         glBindBuffer(GL_ARRAY_BUFFER, m_VBO);
